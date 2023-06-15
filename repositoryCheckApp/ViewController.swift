@@ -14,6 +14,9 @@ class ViewController: UIViewController {
         print("First load")
     }
 
+    override func viewWillAppear(_ animated: Bool) {
+        print("Second load")
+    }
 
 }
 
